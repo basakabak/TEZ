@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <Button
+        android:id="@+id/puan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Puan İçin"/>
+
+    <Button
+        android:id="@+id/ornek"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Örnek Sayfa"/>
+
+    <Button
+        android:id="@+id/gridexp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Grid Exp"/>
+
+    <Button
+        android:id="@+id/CameraExp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Grid Exp"/>
+    <Button
+        android:id="@+id/tesseract"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tesseract Exp"/>
+
+    <Button
+        android:id="@+id/cmr"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Camera Exp"/>
+
+    <Button
+        android:id="@+id/pyexp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Python Exp"/>
+    <Button
+        android:id="@+id/recrd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="REcord Exp"/>
+    <Button
+        android:id="@+id/camera2Exp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Camera ÇEk Kaydet Ve Sil"/>
+
+
+
+</LinearLayout>

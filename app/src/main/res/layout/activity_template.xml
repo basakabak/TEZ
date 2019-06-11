@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/main_layout"
+    android:orientation="vertical"
+    android:weightSum="10"
+    tools:context=".Template">
+
+    <TextureView
+        android:id="@+id/textureView"
+        android:layout_width="0dp"
+        android:layout_height="0dp" />
+    <ImageButton
+        android:id="@+id/stop"
+        android:layout_marginTop="25dp"
+        android:layout_marginLeft="10dp"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:background="@drawable/round"
+        app:srcCompat="@drawable/ic_pause_black_24dp" />
+
+    <ImageButton
+        android:id="@+id/increment"
+        android:layout_marginLeft="10dp"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:background="@drawable/round"
+        app:srcCompat="@drawable/ic_arrow_back_black_24dp" />
+
+
+    <Button
+        android:id="@+id/redGamer"
+        android:text="10"
+        android:textColor="@android:color/white"
+        android:layout_marginTop="300dp"
+        android:background="@drawable/mybutton2"
+        android:layout_width="40dp"
+        android:backgroundTint="#ff0000"
+        android:layout_height="40dp" />
+
+
+
+    <Button
+        android:id="@+id/myPuan"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_width="0dp"
+        android:layout_height="0dp" />
+
+    <GridView
+        android:id="@+id/gridViewAnswer"
+        android:layout_margin="20dp"
+        android:layout_gravity="center_horizontal"
+        android:padding="4dp"
+        android:horizontalSpacing="4dp"
+        android:verticalSpacing="4dp"
+        android:numColumns="8"
+        android:scrollbars="none"
+        android:stretchMode="columnWidth"
+        android:columnWidth="40dp"
+        android:layout_width="230dp"
+        android:layout_height="wrap_content"/>
+
+
+    <Button
+        android:id="@+id/btnCap"
+        android:text="SUBMIT"
+        android:layout_alignParentBottom="true"
+        android:layout_width="5dp"
+        android:layout_height="5dp" />
+
+
+
+</LinearLayout>
